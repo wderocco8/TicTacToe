@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Tic Tac Toe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="manifest" href="/site.webmanifest"> -->
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div class="image">
+            <img src="gameTitle.png" alt="Transparent Image" width="600px">
+        </div>
+        <div class="board-container">
+            <div class="board" id="board">    
+                <div class="cell" id="cell0" onclick="handleClick(0)"></div>
+                <div class="cell" id="cell1" onclick="handleClick(1)"></div>
+                <div class="cell" id="cell2" onclick="handleClick(2)"></div>
+                <div class="cell" id="cell3" onclick="handleClick(3)"></div>
+                <div class="cell" id="cell4" onclick="handleClick(4)"></div>
+                <div class="cell" id="cell5" onclick="handleClick(5)"></div>
+                <div class="cell" id="cell6" onclick="handleClick(6)"></div>
+                <div class="cell" id="cell7" onclick="handleClick(7)"></div>
+                <div class="cell" id="cell8" onclick="handleClick(8)"></div>
+            </div>
+        </div>
+        <div class="message" id="message-el">
+            <br>
+        </div>
+        <div class="button">
+            <button id="clearBtn" onclick="clearBoard()">Restart Game</button>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
