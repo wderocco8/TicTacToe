@@ -92,9 +92,9 @@ function isWinner(isTurnX) {
     for (const combo of WIN_COMBOS) {
         if (cells[combo[0]] != false && cells[combo[0]] === cells[combo[1]] && cells[combo[1]] === cells[combo[2]]) {
             if (isTurnX) {
-                messageEl.textContent = "Congradulations player X!!!!"
+                messageEl.textContent = "Congratulations player X!!!!"
             } else {
-                messageEl.textContent = "Congradulations player O!!!!"
+                messageEl.textContent = "Congratulations player O!!!!"
             }
             isAlive = false
             visualizeWin(combo)
