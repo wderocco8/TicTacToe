@@ -30,3 +30,9 @@ For this project, I used a tool called **Netlify**, which was taught in the Scri
 
 Alternatively, you can visit the site I already created below:
 * https://app.netlify.com/sites/flourishing-alpaca-a6a790/overview
+
+
+## Game Visualization
+
+https://github.com/wderocco8/TicTacToe/assets/93288641/bd884514-ba5c-4596-a87d-db25152a8af2
+
