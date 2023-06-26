@@ -148,7 +148,7 @@ function unHoverCursor(cellEl) {
     renderCells()
 }
 
-// hover code (doesn't fully work with win)
+// hover code
 for (let i = 0; i < cells.length; i++) {
     const cellEl = document.getElementById(`cell${i}`)
 
