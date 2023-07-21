@@ -29,7 +29,7 @@ For this project, I used a tool called **Netlify**, which was taught in the Scri
 4. YOU'RE DONE!
 
 Alternatively, you can visit the site I already created below:
-* https://app.netlify.com/sites/flourishing-alpaca-a6a790/overview](https://flourishing-alpaca-a6a790.netlify.app/
+* https://flourishing-alpaca-a6a790.netlify.app/
 
 
 ## Game Visualization
